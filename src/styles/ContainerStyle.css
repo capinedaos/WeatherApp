@@ -1,0 +1,70 @@
+.container {
+  /* border: 5px solid rgb(123, 118, 118); */
+  width: 100%;
+  min-height: 100vh;
+  background-color: #eafafa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nuages.gif/334px-Nuages.gif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+button {
+  width: 10rem;
+  height: 4rem;
+  margin: 1rem;
+  cursor: pointer;
+  background-color: #e7ede71d;
+  border-radius: 5px;
+  box-shadow: 0 8px 13px 1px rgba(0, 0, 0, 0.667);
+  border: none;
+  text-transform: uppercase;
+}
+
+* {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 35px;
+  min-width: 5rem;
+}
+
+h1 {
+  font-size: 60px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  padding: 2px;
+  text-align: left;
+}
+
+img {
+  width: 300px;
+}
+
+.cardWeather {
+  /* border:2px solid black; */
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 55%);
+  margin: 2rem;
+  text-transform: capitalize;
+  padding: 1rem;
+  background-color: #e6e6fa32;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
